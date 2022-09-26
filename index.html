@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+	<title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+	<div id="container">
+		<div class="card">
+			<div class="item">
+				<span>Notifications <span id="not-number">3</span></span>
+				<button id="button-readall" onclick="markAsRead()">Mark all as read</button>
+			</div>
+			<div class="item unread">
+				<div class="img">
+					<img src="./assets/images/avatar-mark-webber.webp" alt="account profile icon" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Mark Webber</a> reacted to your recent post 
+						<a href="" class="post" onclick="event.preventDefault()">My first tournament today! </a><span class="not-new">&#x25cf;</span>
+					</p>
+					<span class="time">1m ago</span>
+				</div>
+			</div>
+			<div class="item unread">
+				<div class="img">
+					<img src="./assets/images/avatar-angela-gray.webp" alt="account profile icon" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Angela Gray</a> followed you <span class="not-new">&#x25cf;</span>
+					</p>
+					<span class="time">5m ago</span>
+				</div>
+			</div>
+			<div class="item unread">
+				<div class="img">
+					<img src="./assets/images/avatar-jacob-thompson.webp" alt="account profile icon" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Jacob Thompson</a> has joined your group 
+						<a href="" class="chess" onclick="event.preventDefault()">Chess Club </a><span class="not-new">&#x25cf;</span>
+					</p>
+					<span class="time">1 day ago</span>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img">
+					<img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="account profile icon" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Rizky Hasanuddin</a> sent you a private message</p>
+					<span class="time">5 days ago</span>
+					<p class="message">
+						Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+						I'm already having lots of fun and improving my game.
+					</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img">
+					<img src="./assets/images/avatar-kimberly-smith.webp" alt="account profile icon" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Kimberly Smith</a> commented on your picture</p>
+					<span class="time">1 week ago</span>
+				</div>
+				<div class= "pic">
+					<img src="./assets/images/image-chess.webp" alt="account profile icon" />
+				</div>
+			</div>
+			<div class="item">
+				<div class="img">
+					<img src="./assets/images/avatar-nathan-peterson.webp" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Nathan Peterson</a> reacted to your recent post 
+						<a href="" class="post" onclick="event.preventDefault()">5 end-game strategies to increase your win rate</a>
+					</p>
+					<span class="time">2 weeks ago</span>
+				</div>
+			</div>
+			<div class="item">
+				<div class="img">
+					<img src="./assets/images/avatar-anna-kim.webp" alt="account profile icon" />
+				</div>
+				<div  >
+					<p class="text">
+						<a href="" class="name" onclick="event.preventDefault()">Anna Kim</a> left the group 
+						<a href="" class="chess" onclick="event.preventDefault()">Chess Club</a>
+					</p>
+						<span class="time">2 weeks ago</span>
+				</div>
+			</div>
+		</div>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://www.linkedin.com/in/rodrigo-zapatero-139476166/">Rodrigo Zapatero</a>.
+		</div>
+	</div>
+
+
+</body>
+
+</html>
